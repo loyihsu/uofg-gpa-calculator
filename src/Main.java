@@ -15,7 +15,7 @@ public class Main {
         myGrades.add(new Grade("Database Theory and Applications", GradeBand.C1, 10));
 
         // Estimated Grades (Name, Grade map (Item name, Band, Percentage), Grade Points)
-        // This will be extremely inaccurate, but the best we can do with knowledge of the points that haven't come out.
+        // This will be extremely inaccurate, but the best we can do without knowledge of the points that haven't come out.
 
         myGrades.add(new EstimatedGrade("IT+ Software Development Project",
                 new GradeMap(new ArrayList<>(Arrays.asList(new PercentageTuple[] {

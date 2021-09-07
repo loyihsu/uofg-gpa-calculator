@@ -1,6 +1,6 @@
 # uofg-gpa-calculator
-👩‍
-💻 A Java program to calculate GPA at UofG. (Spoiler: The sample data is totally random.)
+
+A Java program to calculate GPA at UofG. (Spoiler: The sample data is totally random.)
 
 ## How to use it
 

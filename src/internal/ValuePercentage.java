@@ -1,6 +1,10 @@
+/**
+ * @author Yu-Sung Loyi Hsu
+ */
+
 package internal;
 
-interface ValuePercentage {
+public interface ValuePercentage {
     double getValue();
     double getPercentage();
 }

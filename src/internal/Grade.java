@@ -1,3 +1,9 @@
+/**
+ * The representation of a Grade that is released by the school.
+ * It implements ValuePercentage to support calculating GPA using GradeBand method.
+ * @author Yu-Sung Loyi Hsu
+ */
+
 package internal;
 
 public class Grade implements ValuePercentage {
@@ -15,18 +21,20 @@ public class Grade implements ValuePercentage {
         return band;
     }
 
+    @Override
+    public String toString() {
+        return "\'" + courseName + "\' (" + gradePoint + "): " + band;
+    }
+
+    // ===========================================================
+    // ValuePercentage
+    // ===========================================================
+
     public double getValue() {
         return getBand().value;
     }
 
     public double getPercentage() {
         return gradePoint;
-    }
-
-    @Override
-    public String toString() {
-        return "Course: \'" + courseName + '\'' +
-                ", band=" + band +
-                ", gradePoint=" + gradePoint;
     }
 }

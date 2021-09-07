@@ -1,9 +1,18 @@
+/**
+ * A generic Tuple type.
+ *
+ * @author Yu-Sung Loyi Hsu
+ * @param <T>
+ * @param <U>
+ * @param <V>
+ */
+
 package internal;
 
 public class Tuple<T, U, V> {
-    final T first;
-    final U second;
-    final V third;
+    protected final T first;
+    protected final U second;
+    protected final V third;
 
     public Tuple(T first, U second, V third) {
         this.first = first;
@@ -13,10 +22,6 @@ public class Tuple<T, U, V> {
 
     @Override
     public String toString() {
-        return "internal.Tuple{" +
-                "first=" + first +
-                ", second=" + second +
-                ", third=" + third +
-                '}';
+        return "(" + first + ", " + second + ", " + third + ")";
     }
 }

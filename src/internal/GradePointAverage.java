@@ -1,5 +1,7 @@
 /**
  * The GPA representation, supporting directly getting band.
+ * Changes:
+ * - Support for getting exact value is added.
  * @author Yu-Sung Loyi Hsu
  */
 

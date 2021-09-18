@@ -36,7 +36,6 @@ public class GradePointAverage {
             values += 0.1;
         }
 
-        System.out.println(values);
         return values;
     }
 
